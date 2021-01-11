@@ -140,8 +140,6 @@ void turnDegrees(int direction, float degrees) {
   digitalWrite(motorRight[0], direction=LEFT?LOW:HIGH);
   digitalWrite(motorRight[1], LOW);
 
-  
-
   float delayMillis = degrees * secondsPerDegree *1000;
 
   Serial.print(degrees);
