@@ -71,7 +71,7 @@ void loop() {
 
   driveForwardDistance(12);
   turnDegrees(LEFT, 30.0);
-  driveForwardDistance(255, 10);
+  driveForwardDistance(10);
   turnDegrees(RIGHT, 15.0);
   
 }
